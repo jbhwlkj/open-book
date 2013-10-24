@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/exit_button.png</file>
+        <file>images/bg.jpg</file>
+        <file>images/loading.png</file>
+        <file>images/cover.png</file>
+        <file>images/front_cover.png</file>
+        <file>images/info_page.jpg</file>
+        <file>images/empty.png</file>
+        <file>images/paper.jpg</file>
+        <file>images/tape.png</file>
+    </qresource>
+</RCC>
