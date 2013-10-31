@@ -6,43 +6,42 @@ The book can be browsed with intuitive touch gestures and it contains images
 retrieved from the device gallery and ads. The In-App Advertising feature is
 implemented by wrapping the Inneractive server API with Qt.
 
-This example application is hosted in Nokia Developer Projects:
-- http://projects.developer.nokia.com/openbook
+![Screenshot](https://github.com/nokia-developer/open-book/raw/master/doc/open-book-3.png)
+
+This example application is hosted in GitHub:
+https://github.com/nokia-developer/open-book
 
 This example application demonstrates:
-- Showing ads in OpenGL ES context
-- Retrieving images from the phone gallery
-- Optimised creation of image thumbnails
+
+* Showing ads in OpenGL ES context
+* Retrieving images from the phone gallery
+* Optimised creation of image thumbnails
 
 
 1. Prerequisites
 -------------------------------------------------------------------------------
 
- - Intermediate skills in Qt and C++
- - OpenGL ES 2.0 basics
+* Intermediate skills in Qt and C++
+* OpenGL ES 2.0 basics
 
 
 2. Project structure
 -------------------------------------------------------------------------------
 
- |                      The root folder contains the project file, resource
- |                      files, the licence information, and this file (release
- |                      notes).
- |
- |- images              Contains application graphics.
- |
- |- inneraddengine_src  Source code for fetching and managing the ads.
- |
- |- src                 Contains the main source code files.
- |
+* The root folder contains the project file, resource files, the licence
+  information, and this file (README.md).
+* `images`: Contains application graphics.
+* `inneraddengine_src`: Source code for fetching and managing the ads.
+* `src`: Contains the main source code files.
 
 
 3. Compatibility
 -------------------------------------------------------------------------------
 
- - Symbian devices with Qt 4.7.4 or higher.
+* Symbian devices with Qt 4.7.4 or higher.
 
-Tested to work on the Nokia 701 and the Nokia N8-00. Developed with Qt SDK 1.2.1.
+Tested to work on the Nokia 701 and the Nokia N8-00.
+Developed with Qt SDK 1.2.1.
 
 
 3.1 Required capabilities
@@ -85,16 +84,17 @@ application menu and launch the application by tapping the icon.
 
 See the licence text file delivered with this project. The licence file is also
 available online at
-http://projects.developer.nokia.com/openbook/browser/Licence.txt
+https://github.com/nokia-developer/open-book/blob/master/Licence.txt
 
 
 6. Related documentation
 -------------------------------------------------------------------------------
-- http://www.developer.nokia.com/Community/Wiki/Showing_ads_in_OpenGL_ES_context
-- http://www.developer.nokia.com/Community/Wiki/JpegEmbeddedThumbs
+
+* http://www.developer.nokia.com/Community/Wiki/Showing_ads_in_OpenGL_ES_context
+* http://www.developer.nokia.com/Community/Wiki/JpegEmbeddedThumbs
 
 
 7. Version history
 -------------------------------------------------------------------------------
 
-1.0 Initial release
+* Version 1.0: The initial release.
